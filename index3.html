@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绝对定位+transform实现垂直居中</title>
+    <style>
+    .main-wrap{
+        height:600px;
+        border:1px solid blue;
+    }
+    .main-wrap .main{
+        position:relative;
+        top:50%;
+        transform:translateY(-50%);
+        border:1px solid red;
+    }
+    </style>
+</head>
+<body>
+     <div class="main-wrap">
+        <div class="main">
+            <h1>hello moyi</h1>
+            <img src="images\1.jpg" width="200" height="200"/>
+            <p>have a good time</p>
+        </div>
+    </div>
+</body>
+</html>
